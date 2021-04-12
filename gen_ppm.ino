@@ -17,9 +17,9 @@ String num = "0123456789";
 int ppm[CHANNEL_NUMBER];
 
 void setup(){  
-  Serial.begin(1500000);
+  Serial.begin(2000000);
   //initiallize default ppm values
- Serial.setTimeout(10);
+ Serial.setTimeout(5);
 for(int i = 0; i < CHANNEL_NUMBER; i++){
   ppm[i] = 1500;
   
