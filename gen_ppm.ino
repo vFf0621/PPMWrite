@@ -20,7 +20,7 @@ void setup(){
   //initiallize default ppm values
  Serial.setTimeout(5);
 for(int i = 0; i < CHANNEL_NUMBER; i++){
-  ppm[i] = 1500;
+  ppm[i] = 1515;
   
   }
 
