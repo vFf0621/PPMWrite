@@ -46,7 +46,7 @@ String inBytes = Serial.readString();
 String b = "";
 int count = 0;
   for (int i = 0; i < 20; i ++ ){     
-      if (num.indexOf(inBytes[i] != -1) && inBytes[i] != ' ')
+      if (num.indexOf(inBytes[i]) != -1 && inBytes[i] != ' ')
       {
         b += inBytes[i];}
       else{
