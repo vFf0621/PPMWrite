@@ -10,7 +10,6 @@
 #define PULSE_LENGTH 300  //set the pulse length
 #define onState 0  //set polarity of the pulses: 1 is positive, 0 is negative
 #define sigPin 10  //set PPM signal output pin on the arduino
-int channels[4];
 String num = "0123456789";
 /*this array holds the servo values for the ppm signal
  change theese values in your code (usually servo values move between 1000 and 2000)*/
