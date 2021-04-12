@@ -6,7 +6,7 @@ Created on Wed Apr  7 17:44:49 2021
 """
 
 import serial, time
-arduino = serial.Serial('COM7', 1500000)
+arduino = serial.Serial('COM7', 2000000)
 while True:
     print(time.time())
     for i in range(1000, 2000):
