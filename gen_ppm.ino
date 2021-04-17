@@ -59,7 +59,7 @@ Serial.println(String(ppm[0]) + " " + String(ppm[1]) + " " + String(ppm[2]) + " 
 
 }
 
-ISR(TIMER1_COMPA_vect){  //leave this alone
+ISR(TIMER1_COMPA_vect){  
   static boolean state = true;
   
   TCNT1 = 0;
