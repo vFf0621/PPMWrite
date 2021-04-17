@@ -1,8 +1,4 @@
 
-/*
- * PPM generator originally written by David Hasko
- * on https://code.google.com/p/generate-ppm-signal/ 
- */
 
 //////////////////////CONFIGURATION///////////////////////////////
 #define CHANNEL_NUMBER 8  //set the number of chanels
