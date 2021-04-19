@@ -1,5 +1,4 @@
 
-
 //////////////////////CONFIGURATION///////////////////////////////
 #define CHANNEL_NUMBER 8  //set the number of chanels
 #define FRAME_LENGTH 22500  //set the PPM frame length in microseconds (1ms = 1000µs)
@@ -16,8 +15,11 @@ void setup(){
   //initiallize default ppm values
  Serial.setTimeout(5);
 for(int i = 0; i < CHANNEL_NUMBER; i++){
+  if(i == 2){
+    ppm[i] = 1090;}
+    else{
   ppm[i] = 1515;
-  
+    }
   }
 
 
